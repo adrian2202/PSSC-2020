@@ -1,0 +1,30 @@
+
+
+Stackoverflow- functii si si elemente de functionalitate
+
+1.Functie de Sign Up si Log In
+   -Log in: functie de autentificare avand deja username si o parola sau prin conectarea cu contul de google, github sau facebook
+   -Sign up: creearea contului 
+
+2. Functia About
+   - se prezinta sub forma sugestiva informatii despre StackOverflow, dar si despre alte produse din aceeasi categorie
+   - are mai multe categorii despre care poti afla informatii
+
+3. Are doua butoane "for developers " si "For Businesses" . Butoane care prezinta functiile specifice fiecarui grup de interes
+   -ficare buton ne duce pe o anumita directie :"For developers" ne duce la "Public Q&A" - "Private Q&A" si "Browse Jobs"
+   - are mici informatii despre tot 
+   -"Public Q&A" are un button "Browse Questions" unde putem sa vedem intrebari adaugate recent
+acestea au un titlu, un preview la o parte din enuntul textului, tag-uri pentru filtrarea intrebarilor.
+   -Intrebarile pot fi sortate in functie de "Newest, Active,Bountied,Unnswered,More" exista si un button
+
+4. In stanga paginii putem cauta si in functie de tag-uri sau utilizatori + o parte unde putem cauta locuri
+de munca dupa multiple setari (inclusiv locatie) si ultima functie ne duce la o pagina unde putem cauta companii.
+
+5. In dreapta paginii - apar diferite informatii despre cele mai noi tehnologii si informatii aparute in domeniu  
+      - pare sugetii pt joburi 
+      - cele mai cautate taguri 
+      - cele mai noi intrebari 
+
+6.In josul paginii avem un mic meniu dar si nr de pagini
+
+7.In partea de sus a pagini este un search in care apasand ne da sugestii si informatii
