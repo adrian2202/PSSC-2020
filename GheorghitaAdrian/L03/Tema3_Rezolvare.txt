@@ -1,0 +1,33 @@
+- Bounded context: "Question context"
+	- Workflow: "Post a new question"
+		- Triggered by: "Post new question request received"
+		- Input: "Ask a public question form" (Title, Body, Tags)
+		- Other inputs (Review your question, depedencies)
+		- Output: "Question posted" event
+		- Side effects: Notification sent to user
+
+-Workflow documentation
+	- Workflow "Ask question"
+		- Input: "New question information form"
+		- Output: "New question published" event or "Review question" form
+	//step1
+	  Do validate question form
+	  if form is invalid then
+	     stop
+
+	//step 2
+	  Review question fields
+
+	//step3
+	  return "New question published" event
+
+	- Substep "validate question" form
+	   - input: "Unvalidated question" form
+	   - output: "Validated question" form
+	   - dependencies: Title validator, Body validator, Tags validator.
+	- Validate the title
+	- Validate the body
+	- Validate the tags
+	- if all validators passed then
+	   - return "New question published" form
+	- else return Validation error
